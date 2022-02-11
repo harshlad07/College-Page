@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    margin-left: 34px;
+    background-color: rgb(0, 33, 73);
+    border-radius: 0 0 0 100px;
+    padding: 5px 0;
+    font-size: 13px;
+}
+
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15 px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left-text {
+    float: left;
+    margin-top: 10px;
+}
+
+.right-text {
+    display: block;
+    text-align: right;
+}
+
+.StudentCorner {
+    padding: 10px 10px;
+    border: solid 2px rgb(253, 83, 8);
+    border-radius: 4px;
+    background-color: rgb(253, 83, 8);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.StudentCorner:hover {
+    background-color: rgb(0, 40, 88);
+}
+
+.phone {
+    color: white;
+    margin: 20px;
+}
+
+.email {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.email:hover {
+    color: orangered;
+}
+
+.social-media {
+    text-decoration: none;
+    display: inline;
+    padding: 12px;
+}
+
+.fb,
+.tw,
+.yt,
+.gp {
+    padding: 12px;
+}
+
+.lgname {
+    display: inline-flex;
+    /* margin: 0px 263px; */
+    margin-left: 340px;
+    padding: 20px;
+    width: 64%;
+}
+
+#logo {
+    margin-left: -100px;
+    float: left;
+    margin-top: 10px;
+}
+
+.name {
+    font-size: 34px;
+    margin-left: 28px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.menubar {
+    text-align: center;
+
+}
+
+.menubar ul {
+    display: inline-flex;
+    list-style: none;
+
+}
+
+.menubar ul li {
+    /* width: 120px; */
+    margin: 15px;
+    padding: 15px;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* .active,
+.menubar ul li:hover {
+    background-color: red;
+    border-radius: 3px;
+} */
+
+.submenu {
+    /* color: white; */
+    display: none;
+}
+
+.submenu li a {
+    color: white;
+}
+
+.menubar ul li:hover .submenu {
+    display: block;
+    position: absolute;
+    background-color: rgb(66, 61, 61);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menubar ul li:hover .submenu ul {
+    /* color: white; */
+    display: block;
+    /* width: 20px; */
+    margin: 10px;
+}
+
+.menubar ul li:hover .submenu ul li {
+    /* color: white;   */
+    width: 100px;
+    padding: 10px;
+    /* border-bottom: 1px dotted #fff; */
+}
+
+.submenu ul li a {
+    color: white;
+}
+
+.image Img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.idea {
+    border: 2px solid;
+    width: 25%;
+    overflow: auto;
+    position: relative;
+    margin: -71px 0px;
+    /* display: inline-block; */
+}
+
+.idea h5:hover {
+    text-decoration: underline;
+}
+
+#about {
+    border-color: rgb(135, 204, 0);
+    background-color: rgb(135, 204, 0);
+    float: left;
+    margin-left: 165px;
+}
+
+#vision {
+    border-color: rgb(253, 83, 8);
+    background-color: rgb(253, 83, 8);
+    float: left;
+
+}
+
+#mission {
+    border-color: rgb(0, 173, 239);
+    background-color: rgb(0, 173, 239);
+    float: left;
+
+}
+
+.idea * {
+    color: white;
+}
+
+.idea h5 {
+    margin: 25px;
+    margin-bottom: 0px;
+}
+
+.idea p {
+    margin: 25px;
+    margin-top: 15px;
+}
+
+#about p,
+#mission p,
+#vision p {
+    margin-bottom: 42px;
+}
+
+.mfp {
+    /* border: 2px solid black; */
+    /* background-color: rgb(211, 211, 211); */
+    display: inline-flex;
+    margin: 7px 165px;
+    padding: 35px;
+    /* width: 71%; */
+}
+
+.mfgimage {
+    width: 480px;
+    height: 345px;
+}
+
+.content {
+    /* border: 2px solid red; */
+    text-align: inherit;
+}
+
+.pr {
+    padding: 20px;
+}
+
+.ct {
+    padding: 20px;
+}
+.ct2 {
+    margin-top: -23px;
+    padding: 20px;
+}
+
+.btn {
+    padding: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.viewmore {
+    padding: 10px 10px;
+    border: solid 2px rgb(253, 83, 8);
+    border-radius: 4px;
+    background-color: rgb(253, 83, 8);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.viewmore:hover {
+    background-color: rgb(0, 40, 88);
+}
+
+.bg {
+    width: 102%;
+    height: 420px;
+    /* border: 2px solid purple; */
+    background-color: #f4f4f4;
+    margin-top: 106px;
+}
